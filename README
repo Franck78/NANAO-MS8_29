@@ -1,0 +1,29 @@
+This is a reverse engineering schematic from a NANAO MS8-29
+
+There is a lot of similarities with MS8-28 wich have some schematics available.
+
+
+  
+I used partlist for the MS8-29FSG found in the Daytona-1 manual.
+
+
+
+
+This schematic needs some review, some rechecks etc etc etc.
+
+It uses KiCad 5.1
+Describe me fixes or send PR for KiCad 5.1
+
+
+BODGES
+
+A capacitor is piggy backed on resistor R566. I naned this cap C566, it is a 4µ7/100v
+
+
+A 330R resistor is added on R564 wich makes no sense. Probably specific to my board.
+
+The heater resistance R571 (4R7) have a paralell resistor 0R56
+
+
+TODO
+
