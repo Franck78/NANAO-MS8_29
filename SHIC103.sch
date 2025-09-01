@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title "DEFLECTION"
-Date "2025-07-18"
-Rev "1.0"
-Comp ""
+Title "NANAO MS8-29"
+Date "2025-08-27"
+Rev "1.4"
+Comp "Franck BOURDONNEC"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "https://github.com/Franck78/NANAO-MS8_29"
 $EndDescr
 $Comp
 L nanao:HA11423 IC_502
