@@ -3,14 +3,14 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title "NANAO MS8-29"
-Date "2025-08-27"
-Rev "1.4"
+Date "2025-10-10"
+Rev "1.5"
 Comp "Franck BOURDONNEC"
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "https://buymeacoffee.com/franck78"
 Comment4 "https://github.com/Franck78/NANAO-MS8_29"
 $EndDescr
 $Comp
