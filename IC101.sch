@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title "NANAO MS8-29"
-Date "2025-10-10"
-Rev "1.5"
+Title "NANAO MS8-29 (05A00362G1)"
+Date "2025-11-17"
+Rev "1.6"
 Comp "Franck BOURDONNEC"
 Comment1 ""
 Comment2 ""
@@ -60,7 +60,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 2850 8100 2850
 Text HLabel 9250 2850 2    50   Output ~ 0
-Gout
+Gout-9
 $Comp
 L Device:R R111
 U 1 1 6813FE4C
@@ -97,7 +97,7 @@ Connection ~ 4650 2500
 Wire Wire Line
 	4650 2500 4650 2650
 Text HLabel 1400 4050 0    50   Input ~ 0
-Gin
+Gin-7
 $Comp
 L Transistor_BJT:MMBT3904 Q?
 U 1 1 6814E74E
@@ -186,7 +186,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 2250 8100 2250
 Text HLabel 9250 2250 2    50   Output ~ 0
-Rout
+Rout-14
 Wire Wire Line
 	2850 1750 2850 1900
 Wire Wire Line
@@ -205,8 +205,8 @@ Wire Wire Line
 Connection ~ 2850 1350
 Wire Wire Line
 	2850 1350 3450 1350
-Text HLabel 1400 3850 0    50   Input ~ 0
-Rin
+Text HLabel 1450 3850 0    50   Input ~ 0
+Rin-12
 $Comp
 L Device:R R121
 U 1 1 6819ECB5
@@ -232,9 +232,9 @@ F 3 "~" H 5600 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1400 4250 0    50   Input ~ 0
-Bin
+Bin-2
 Text HLabel 9250 3450 2    50   Output ~ 0
-Bout
+Bout-4
 Connection ~ 7100 3450
 Wire Wire Line
 	7100 3450 7100 5050
@@ -290,12 +290,12 @@ Wire Wire Line
 Connection ~ 1100 1350
 Wire Wire Line
 	1100 1350 2500 1350
-Text HLabel 1400 2250 0    50   Input ~ 0
-BLR
-Text HLabel 1400 2850 0    50   Input ~ 0
-BLG
-Text HLabel 1400 3450 0    50   Input ~ 0
-BLB
+Text HLabel 1500 2250 0    50   Input ~ 0
+BLR-11
+Text HLabel 1450 2850 0    50   Input ~ 0
+BLG-6
+Text HLabel 1450 3450 0    50   Input ~ 0
+BLB-1
 Text Notes 1200 2200 0    50   ~ 0
 Blacks levels setup
 Wire Notes Line
@@ -423,7 +423,7 @@ F 3 "~" H 2000 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 3850 1400 3850
+	1850 3850 1450 3850
 $Comp
 L Device:R R?
 U 1 1 6954A0F0
@@ -639,11 +639,11 @@ Wire Wire Line
 Wire Wire Line
 	5800 5400 5800 5750
 Wire Wire Line
-	1400 2250 2500 2250
+	1500 2250 2500 2250
 Wire Wire Line
-	1400 2850 4300 2850
+	1450 2850 4300 2850
 Wire Wire Line
-	1400 3450 6150 3450
+	1450 3450 6150 3450
 Wire Wire Line
 	7100 5750 6500 5750
 Connection ~ 1100 5750

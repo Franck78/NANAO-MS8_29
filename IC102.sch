@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title "NANAO MS8-29"
-Date "2025-10-10"
-Rev "1.5"
+Title "NANAO MS8-29 (05A00362G1)"
+Date "2025-11-17"
+Rev "1.6"
 Comp "Franck BOURDONNEC"
 Comment1 ""
 Comment2 ""
@@ -114,19 +114,19 @@ $EndComp
 $Comp
 L Device:C __C1
 U 1 1 6F7E8830
-P 2050 3800
-F 0 "__C1" V 2000 3950 50  0001 C CNN
-F 1 "12n" V 2100 3950 50  0000 C CNN
-F 2 "" H 2088 3650 50  0001 C CNN
-F 3 "~" H 2050 3800 50  0001 C CNN
-	1    2050 3800
+P 2050 4250
+F 0 "__C1" V 2000 4400 50  0001 C CNN
+F 1 "12n" V 2100 4400 50  0000 C CNN
+F 2 "" H 2088 4100 50  0001 C CNN
+F 3 "~" H 2050 4250 50  0001 C CNN
+	1    2050 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1900 3800 1300 3800
+	1900 4250 1300 4250
 Wire Wire Line
 	10150 1450 10550 1450
-Text HLabel 1300 3800 0    50   Input ~ 0
+Text HLabel 1300 4250 0    50   Input ~ 0
 pin6
 Text HLabel 10550 1450 2    50   Output ~ 0
 pin11
@@ -327,12 +327,12 @@ Wire Wire Line
 $Comp
 L Device:R __R3
 U 1 1 6F9E54A9
-P 2850 3600
-F 0 "__R3" H 2780 3554 50  0001 R CNN
-F 1 "68K" H 2780 3645 50  0000 R CNN
-F 2 "" V 2780 3600 50  0001 C CNN
-F 3 "~" H 2850 3600 50  0001 C CNN
-	1    2850 3600
+P 2850 3400
+F 0 "__R3" H 2780 3354 50  0001 R CNN
+F 1 "68K" H 2780 3445 50  0000 R CNN
+F 2 "" V 2780 3400 50  0001 C CNN
+F 3 "~" H 2850 3400 50  0001 C CNN
+	1    2850 3400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -351,7 +351,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 3250 3550 3100
 Wire Wire Line
-	2850 3100 2850 3450
+	2850 3100 2850 3250
 Wire Wire Line
 	8700 900  8700 1550
 $Comp
@@ -381,19 +381,16 @@ F 3 "~" H 2900 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 5500 1300 5500
-Text HLabel 1300 4250 0    50   Input ~ 0
+Text HLabel 6550 3700 2    50   Output ~ 0
 pin7
 Wire Wire Line
-	1300 4250 2450 4250
+	6550 3700 2850 3700
 Wire Wire Line
-	2450 4250 2450 3800
+	2850 4250 2850 3700
 Wire Wire Line
-	2450 3800 2200 3800
+	2850 4250 2200 4250
 Wire Wire Line
-	2850 3750 2850 4250
-Wire Wire Line
-	2450 4250 2850 4250
-Connection ~ 2450 4250
+	2850 3550 2850 3700
 Wire Wire Line
 	5850 6700 5850 6850
 $Comp
@@ -629,4 +626,5 @@ Wire Wire Line
 	3550 3550 3550 3900
 Wire Wire Line
 	3550 3900 5850 3900
+Connection ~ 2850 3700
 $EndSCHEMATC
