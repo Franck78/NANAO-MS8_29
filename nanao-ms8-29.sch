@@ -5,8 +5,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 6
 Title "NANAO MS8-29 (05A00362G1)"
-Date "2025-11-17"
-Rev "1.6"
+Date "2026-01-30"
+Rev "1.6a"
 Comp "Franck BOURDONNEC"
 Comment1 ""
 Comment2 ""
@@ -4152,7 +4152,7 @@ L nanao:LA7832 IC401
 U 1 1 67FC6D12
 P 10000 8450
 F 0 "IC401" H 9650 8900 50  0000 L CNN
-F 1 "LA7830" H 9250 8900 50  0000 L CNN
+F 1 "LA7832" H 9250 8900 50  0000 L CNN
 F 2 "" H 10000 8450 50  0001 C CNN
 F 3 "" H 10000 8450 50  0001 C CNN
 	1    10000 8450
@@ -8568,7 +8568,7 @@ Connection ~ 11400 14800
 Wire Wire Line
 	11400 14800 11400 14750
 Text Notes 13850 11400 0    157  ~ 31
-B+
+BL+
 Text Notes 17650 9750 0    157  ~ 31
 B+
 Wire Wire Line

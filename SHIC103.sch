@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "NANAO MS8-29 (05A00362G1)"
-Date "2025-11-17"
-Rev "1.6"
+Date "2026-01-30"
+Rev "1.6a"
 Comp "Franck BOURDONNEC"
 Comment1 ""
 Comment2 ""
